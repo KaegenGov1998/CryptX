@@ -6,14 +6,14 @@ const CardContent = ({ CardContentIcon, stockPercent, stockIncrease, stockPrice,
   return (
     <>
       <div
-        className="flex flex-col justify-between w-[252px] h-[205px] p-[30px] m-5
+        className="flex flex-col justify-between w-63 h-51 p-7.5 m-5 ml-10
      bg-white border-0 rounded-md shadow-sm"
       >
         <div className="flex flex-row justify-between">
           <div>
             <CardContentIcon
               alt=""
-              className="h-[52px] w-[52px] bg-yellow-400 border-0 rounded-md"
+              className="h-13 w-13 bg-yellow-400 border-0 rounded-md"
             />{" "}
             {/*change this to an img*/}
           </div>
