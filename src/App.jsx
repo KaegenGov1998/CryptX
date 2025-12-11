@@ -19,7 +19,7 @@ import BTCPrices from "./components/BTCPrices";
 const App = () => {
   return (
     <>
-      <div className="flex flex-row pb-11.5">
+      <div className="flex flex-row">
         <div>
           <div className="flex flex-col w-66 h-full pl-10 bg-[#F3F3F3]">
 
@@ -55,31 +55,31 @@ const App = () => {
                   CardContentIcon={Bitcoin}
                   stockIncrease={true}
                   stockPercent={0.22}
-                  stockPrice={22.222}
+                  stockPrice={31.525}
                   stockName={"Bitcoin - BTC"}
                 />
                 <CardContent
                   CardContentIcon={Bitcoin}
                   stockIncrease={false}
-                  stockPercent={0.22}
-                  stockPrice={22.222}
-                  stockName={"Bitcoin - BTC"}
+                  stockPercent={0.34}
+                  stockPrice={44.214}
+                  stockName={"Ethereum - ETH"}
                 />
               </div>
               <div className="flex mr-2">
                 <CardContent
                   CardContentIcon={Bitcoin}
                   stockIncrease={true}
-                  stockPercent={0.22}
-                  stockPrice={22.222}
-                  stockName={"Bitcoin - BTC"}
+                  stockPercent={0.11}
+                  stockPrice={12.345}
+                  stockName={"Litecoin - ITL"}
                 />
                 <CardContent
                   CardContentIcon={Bitcoin}
                   stockIncrease={false}
                   stockPercent={0.22}
                   stockPrice={22.222}
-                  stockName={"Bitcoin - BTC"}
+                  stockName={"Cardano - ADA"}
                 />
               </div>
 
@@ -101,10 +101,10 @@ const App = () => {
             </div>
             <div className="h-89.5 ml-15">
               <div className='font-semibold text-xl pb-6'>Transactions</div>
-              <Transaction CryptoName={"Ethereum"} RecievedOrBuy={true} CashPrice={222222} Day={"Today"} Time={"19:30"} />
-              <Transaction CryptoName={"Bitcoin"} RecievedOrBuy={false} CashPrice={222222} Day={"Today"} Time={"17:22"} />
-              <Transaction CryptoName={"Bitcoin"} RecievedOrBuy={true} CashPrice={222222} Day={"Today"} Time={"09:35"} />
-              <Transaction CryptoName={"Litecoin"} RecievedOrBuy={false} CashPrice={222222} Day={"Today"} Time={"29:30"} />
+              <Transaction CryptoName={"Ethereum"} RecievedOrBuy={true} CashPrice={1243234} Day={"Today"} Time={"19:30"} />
+              <Transaction CryptoName={"Bitcoin"} RecievedOrBuy={false} CashPrice={739473} Day={"Today"} Time={"17:22"} />
+              <Transaction CryptoName={"Bitcoin"} RecievedOrBuy={true} CashPrice={2347353} Day={"Today"} Time={"09:35"} />
+              <Transaction CryptoName={"Litecoin"} RecievedOrBuy={false} CashPrice={234235} Day={"Today"} Time={"19:30"} />
 
             </div>
           </div>
