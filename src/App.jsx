@@ -1,4 +1,5 @@
 import React from "react";
+import { graph1, graph2, graph3 } from "./assets";
 import {
   Bitcoin, Infinity, LayoutGrid,
   Dot,
@@ -93,10 +94,10 @@ const App = () => {
           <div className="flex flex-row">
             <div className="div className='w-173 h-89.5 ml-10">
               <div className='font-semibold text-xl pb-6'>Live Market</div>
-              <LiveMarket CryptoName={"Ethereum"} TickerSymbol={"ETH / USDA"} Change={22.22} IsChangeIncrease={false} Price={1234} />
-              <LiveMarket CryptoName={"Bitcoin"} TickerSymbol={"ETH / USDA"} Change={11.22} IsChangeIncrease={true} Price={1234} />
-              <LiveMarket CryptoName={"Litecoin"} TickerSymbol={"ITH / USDA"} Change={33.22} IsChangeIncrease={true} Price={1234} />
-              <LiveMarket CryptoName={"Cardano"} TickerSymbol={"ADA / USDA"} Change={14.22} IsChangeIncrease={false} Price={1234} />
+              <LiveMarket CryptoName={"Ethereum"} TickerSymbol={"ETH / USDA"} Change={22.22} IsChangeIncrease={false} Price={1234} graphImage={graph1} />
+              <LiveMarket CryptoName={"Bitcoin"} TickerSymbol={"ETH / USDA"} Change={11.22} IsChangeIncrease={true} Price={1234} graphImage={graph2} />
+              <LiveMarket CryptoName={"Litecoin"} TickerSymbol={"ITH / USDA"} Change={33.22} IsChangeIncrease={true} Price={1234} graphImage={graph1} />
+              <LiveMarket CryptoName={"Cardano"} TickerSymbol={"ADA / USDA"} Change={14.22} IsChangeIncrease={false} Price={1234} graphImage={graph3} />
             </div>
             <div className="h-89.5 ml-15">
               <div className='font-semibold text-xl pb-6'>Transactions</div>

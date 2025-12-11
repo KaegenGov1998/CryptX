@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bitcoin } from "lucide-react";
 
-const LiveMarket = ({CryptoName, TickerSymbol, Change, IsChangeIncrease, Price}) => {
+const LiveMarket = ({CryptoName, TickerSymbol, Change, IsChangeIncrease, Price, graphImage}) => {
   return (
     <>
 
@@ -37,7 +37,9 @@ const LiveMarket = ({CryptoName, TickerSymbol, Change, IsChangeIncrease, Price})
           </div>
         </div>
 
-        <div className='w-40.5 bg-[#9E9E9E] ml-10'>Hello</div>
+        <div className='w-40.5 ml-10 object-cover'>
+          <img src={graphImage} alt='' />
+        </div>
 
       </div>
 
