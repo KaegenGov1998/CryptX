@@ -17,7 +17,7 @@ const SideBar = () => {
 
         {/*Container for Panel 1*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <LayoutGrid />
             <div>Overview</div>
           </div>
@@ -28,7 +28,7 @@ const SideBar = () => {
 
         {/*Container for Panel 2*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <ChartPie />
             <div>Chart</div>
           </div>
@@ -39,7 +39,7 @@ const SideBar = () => {
 
         {/*Container for Panel 3*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <LayoutGrid />
             <div>Transaction</div>
           </div>
@@ -50,7 +50,7 @@ const SideBar = () => {
 
         {/*Container for Panel 4*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <Wallet  />
             <div>Wallet</div>
           </div>
@@ -61,7 +61,7 @@ const SideBar = () => {
 
         {/*Container for Panel 5*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <Mail  />
             <div>Mail Box</div>
           </div>
@@ -72,7 +72,7 @@ const SideBar = () => {
 
         {/*Container for Panel 6*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <Settings  />
             <div>Setting</div>
           </div>
@@ -83,7 +83,7 @@ const SideBar = () => {
 
         {/*Container for Panel 7*/}
         <div className="flex flex-row text-[#9E9E9E]">
-          <div className="flex flex-row gap-5 mb-6 w-full text-sm">
+          <div className="flex flex-row gap-5 h-8 mb-8 w-full text-sm">
             <LogOut  />
             <div>Logout</div>
           </div>

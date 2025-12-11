@@ -18,7 +18,7 @@ const CardContent = ({ CardContentIcon, stockPercent, stockIncrease, stockPrice,
             {/*change this to an img*/}
           </div>
 
-          <div className="flex flex-row gap-1 items-center h-[52px]">
+          <div className={`flex flex-row gap-1 items-center h-[52px] ${stockIncrease ? 'text-green-300' : 'text-red-400'}`}>
             <div>{stockIncrease ? <ChevronUp /> : <ChevronDown />}</div>
             <div>
               {stockIncrease ? "+" : "-"} {stockPercent}%
