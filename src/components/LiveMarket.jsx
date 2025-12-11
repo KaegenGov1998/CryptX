@@ -37,7 +37,7 @@ const LiveMarket = ({CryptoName, TickerSymbol, Change, IsChangeIncrease, Price})
           </div>
         </div>
 
-        <div className='w-40.5 bg-amber-700 ml-10'>Hello</div>
+        <div className='w-40.5 bg-[#9E9E9E] ml-10'>Hello</div>
 
       </div>
 
